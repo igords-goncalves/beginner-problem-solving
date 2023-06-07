@@ -1,33 +1,42 @@
 {
-  "name": "beginner-problem-solving",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "prepare": "husky install",
-    "precommit": "jest --passWithNoTests",
-    "commit" : "cz"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/igords-goncalves/beginner-problem-solving.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/igords-goncalves/beginner-problem-solving/issues"
-  },
-  "homepage": "https://github.com/igords-goncalves/beginner-problem-solving#readme",
-  "devDependencies": {
-    "@commitlint/cli": "^17.6.5",
-    "@commitlint/config-conventional": "^17.6.5",
-    "commitizen": "^4.3.0",
-    "husky": "^8.0.0",
-    "standard": "^17.1.0"
-  },
-  "dependencies": {
-    "jest": "^29.5.0"
-  }
+    "name": "beginner-problem-solving",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "standard": {
+        "rules": {
+            "semi": true,
+            "singleQuote": false,
+            "trailingComma": "none",
+            "tabWidth": 2,
+            "arrowParens": "avoid"
+        }
+    },
+    "scripts": {
+        "test": "jest",
+        "prepare": "husky install",
+        "precommit": "jest --passWithNoTests",
+        "commit": "cz"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igords-goncalves/beginner-problem-solving.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/igords-goncalves/beginner-problem-solving/issues"
+    },
+    "homepage": "https://github.com/igords-goncalves/beginner-problem-solving#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^17.6.5",
+        "@commitlint/config-conventional": "^17.6.5",
+        "commitizen": "^4.3.0",
+        "husky": "^8.0.0",
+        "standard": "^17.1.0"
+    },
+    "dependencies": {
+        "jest": "^29.5.0"
+    }
 }
