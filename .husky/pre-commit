@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "Ignore tests for while"
-exit 0
+# echo "Ignore tests for while"
+npm test
