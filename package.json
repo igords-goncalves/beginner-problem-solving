@@ -4,8 +4,12 @@
     "description": "",
     "main": "index.js",
     "standard": {
-        "plugins": ["jest"],
-        "env": ["jest"],
+        "plugins": [
+            "jest"
+        ],
+        "env": [
+            "jest"
+        ],
         "rules": {
             "semi": true,
             "singleQuote": false,
@@ -41,6 +45,7 @@
         "standard": "^17.1.0"
     },
     "dependencies": {
+        "chalk": "^5.3.0",
         "jest": "^29.5.0",
         "jest-environment-jsdom": "^29.5.0"
     }
